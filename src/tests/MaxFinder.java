@@ -9,5 +9,6 @@ public class MaxFinder {
             }
         }
         return max;
+        System.out.println("Git");
     }
 }
