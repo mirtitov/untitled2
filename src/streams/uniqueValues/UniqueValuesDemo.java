@@ -1,4 +1,4 @@
-package streams;
+package streams.uniqueValues;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package streams;
+package streams.task1910Person;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +13,7 @@ public class PersonFilterDemo {
         );
 
         List<Person> filtered = persons.stream()
-                .filter(s -> s.age() > 30)
+                .filter(s -> s.getAge() > 30)
                 .collect(Collectors.toList());
 
         filtered.forEach(System.out::println);

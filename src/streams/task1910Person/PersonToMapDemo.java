@@ -1,7 +1,6 @@
-package streams;
+package streams.task1910Person;
 
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.Comparator;
 
 public class PersonToMapDemo {
@@ -16,8 +15,8 @@ public class PersonToMapDemo {
 
 
         List<Person> sortedPersons = persons.stream()
-                .sorted(Comparator.comparingInt(Person::age)
-                        .thenComparing(Person::name))
+                .sorted(Comparator.comparingInt(Person::getAge)
+                        .thenComparing(Person::getName))
                 .toList();
 
         sortedPersons.forEach(System.out::println);

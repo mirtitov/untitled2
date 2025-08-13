@@ -1,4 +1,4 @@
-package streams;
+package streams.minString;
 
 import java.util.Arrays;
 import java.util.Comparator;
